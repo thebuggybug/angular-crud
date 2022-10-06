@@ -1,0 +1,122 @@
+{
+  "productList": [
+    {
+      "productName": "Can Juice",
+      "productCategory": "Foods",
+      "productQuality": "Fair",
+      "productPrice": 12,
+      "productComment": "Can juice Cranverry ",
+      "date": "2022-09-19T18:15:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "iPad",
+      "productCategory": "Electronic",
+      "productQuality": "Like New",
+      "productPrice": 899,
+      "productComment": "iPad Air4",
+      "date": "2022-09-28T18:15:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "week1",
+      "productCategory": "Electronic",
+      "productQuality": "Like New",
+      "productPrice": 5,
+      "productComment": "ll",
+      "date": "2022-09-06T18:15:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "Airpods Pro",
+      "productCategory": "Electronic",
+      "productQuality": "Brand New",
+      "productPrice": 259,
+      "productComment": "Brand new Airpods Pro with ANC",
+      "date": "2022-09-28T18:15:00.000Z",
+      "id": 5
+    },
+    {
+      "productName": "Charger",
+      "productCategory": "Others",
+      "productQuality": "Good",
+      "productPrice": 12,
+      "productComment": "Charger for Devices\n",
+      "date": "2022-09-29T18:15:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "iPhone 11",
+      "productCategory": "Electronic",
+      "productQuality": "Brand New",
+      "productPrice": 1299,
+      "productComment": "Brand new condt",
+      "date": "2022-09-26T18:15:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "iPhone 12",
+      "productCategory": "Electronic",
+      "productQuality": "Brand New",
+      "productPrice": 1299,
+      "productComment": "Brand new condt",
+      "date": "2022-09-26T18:15:00.000Z",
+      "id": 8
+    },
+    {
+      "productName": "iPhone 13",
+      "productCategory": "Electronic",
+      "productQuality": "Brand New",
+      "productPrice": 1299,
+      "productComment": "Brand new condt",
+      "date": "2022-09-26T18:15:00.000Z",
+      "id": 9
+    },
+    {
+      "productName": "week2",
+      "productCategory": "Electronic",
+      "productQuality": "Like New",
+      "productPrice": 5,
+      "productComment": "ll",
+      "date": "2022-09-06T18:15:00.000Z",
+      "id": 10
+    },
+    {
+      "productName": "NOKIA",
+      "productCategory": "Electronic",
+      "productQuality": "Brand New",
+      "productPrice": 12000,
+      "productComment": "NE ONE",
+      "date": "2022-10-05T18:15:00.000Z",
+      "id": 11
+    },
+    {
+      "productName": "Samsung s20",
+      "productCategory": "Electronic",
+      "productQuality": "Brand New",
+      "productPrice": 12,
+      "productComment": "old",
+      "date": "2022-10-07T18:15:00.000Z",
+      "id": 12
+    },
+    {
+      "productName": "bottle",
+      "productCategory": "Others",
+      "productQuality": "Like New",
+      "productPrice": 21,
+      "productComment": "bottle\n",
+      "date": "2022-10-06T18:15:00.000Z",
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

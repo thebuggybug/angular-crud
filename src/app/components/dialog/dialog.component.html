@@ -1,0 +1,58 @@
+<h1 mat-dialog-title>Add Product</h1>
+<div mat-dialog-content>
+    <form [formGroup]="productForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Product Name</mat-label>
+            <input matInput placeholder="Name of Product" formControlName="productName">
+
+            <!-- <mat-hint>Hint</mat-hint> -->
+        </mat-form-field>
+
+
+        <mat-form-field appearance="outline">
+            <mat-label>Product Category</mat-label>
+            <mat-select placeholder="Product Category" formControlName="productCategory">
+                <mat-option value="Foods">Foods</mat-option>
+                <mat-option value="Electronic">Electronic</mat-option>
+                <mat-option value="Others">Others </mat-option>
+            </mat-select>
+
+            <!-- <mat-hint>Hint</mat-hint> -->
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Choose a date</mat-label>
+            <input formControlName="date" matInput [matDatepicker]="picker">
+            <!-- <mat-hint>MM/DD/YYYY</mat-hint> -->
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <label for="">
+            <h1>Product Quality</h1>
+        </label>
+        <mat-radio-group aria-label="Select an option" class="example-radio-group" formControlName="productQuality">
+            <mat-radio-button class="example-radio-button" *ngFor="let quality of prodQuality" [value]="quality">
+                {{quality}}
+            </mat-radio-button>
+
+        </mat-radio-group>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Product Price</mat-label>
+            <input formControlName="productPrice" matInput type="number" placeholder="Price of Product">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Product Comment</mat-label>
+            <textarea formControlName="productComment" matInput></textarea>
+        </mat-form-field>
+
+    </form>
+
+</div>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+
+    <button mat-raised-button color="primary" (click)="addProduct()">{{actionButton}}</button>
+</div>
